@@ -5,7 +5,7 @@
   <link href="/ChadBlog.github.io/atom.xml" rel="self"/>
   
   <link href="https://hesj.github.io/ChadBlog.github.io/"/>
-  <updated>2017-07-22T08:18:26.000Z</updated>
+  <updated>2017-07-21T18:38:39.000Z</updated>
   <id>https://hesj.github.io/ChadBlog.github.io/</id>
   
   <author>
@@ -16,29 +16,23 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://hesj.github.io/ChadBlog.github.io/2017/07/22/hello-world/"/>
-    <id>https://hesj.github.io/ChadBlog.github.io/2017/07/22/hello-world/</id>
-    <published>2017-07-22T08:18:26.000Z</published>
-    <updated>2017-07-22T08:18:26.000Z</updated>
+    <title>这是第一个Blog</title>
+    <link href="https://hesj.github.io/ChadBlog.github.io/2017/05/22/%E8%BF%99%E6%98%AF%E7%AC%AC%E4%B8%80%E4%B8%AABlog/"/>
+    <id>https://hesj.github.io/ChadBlog.github.io/2017/05/22/这是第一个Blog/</id>
+    <published>2017-05-21T18:29:46.000Z</published>
+    <updated>2017-07-21T18:38:39.000Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+    <content type="html"><![CDATA[<p>  书上说人要长大三次<br>第一次是在发现 自己不是世界中心的时候<br>第二次是在发现即使再怎么努力 终究还是有些事令人无能为力的时候<br><a id="more"></a><br>第三次是在 明知道有些事可能会无能为力但还是会尽力争取的时候  </p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      &lt;p&gt;  书上说人要长大三次&lt;br&gt;第一次是在发现 自己不是世界中心的时候&lt;br&gt;第二次是在发现即使再怎么努力 终究还是有些事令人无能为力的时候&lt;br&gt;
     
     </summary>
     
+    
+      <category term="有点困了" scheme="https://hesj.github.io/ChadBlog.github.io/tags/%E6%9C%89%E7%82%B9%E5%9B%B0%E4%BA%86/"/>
     
   </entry>
   
