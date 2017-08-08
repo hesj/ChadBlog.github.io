@@ -5,7 +5,7 @@
   <link href="/ChadBlog.github.io/atom.xml" rel="self"/>
   
   <link href="https://hesj.github.io/ChadBlog.github.io/"/>
-  <updated>2017-07-22T17:18:24.000Z</updated>
+  <updated>2017-08-08T09:45:37.000Z</updated>
   <id>https://hesj.github.io/ChadBlog.github.io/</id>
   
   <author>
@@ -16,52 +16,50 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>这是第一个Test</title>
-    <link href="https://hesj.github.io/ChadBlog.github.io/2017/07/22/%E8%BF%99%E6%98%AF%E7%AC%AC%E4%B8%80%E4%B8%AATest/"/>
-    <id>https://hesj.github.io/ChadBlog.github.io/2017/07/22/这是第一个Test/</id>
-    <published>2017-07-21T18:29:46.000Z</published>
-    <updated>2017-07-22T17:18:24.000Z</updated>
+    <title>jupyter启动问题</title>
+    <link href="https://hesj.github.io/ChadBlog.github.io/2017/08/03/jupyter%E5%90%AF%E5%8A%A8%E9%97%AE%E9%A2%98/"/>
+    <id>https://hesj.github.io/ChadBlog.github.io/2017/08/03/jupyter启动问题/</id>
+    <published>2017-08-03T09:41:13.000Z</published>
+    <updated>2017-08-08T09:45:37.000Z</updated>
     
-    <content type="html"><![CDATA[<p>  书上说人要长大三次<br>第一次是在发现 自己不是世界中心的时候<br>第二次是在发现即使再怎么努力 终究还是有些事令人无能为力的时候<br><a id="more"></a><br>第三次是在 明知道有些事可能会无能为力但还是会尽力争取的时候  </p>
+    <content type="html"><![CDATA[<h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><h4 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h4><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">jupyter notebook</span></div></pre></td></tr></table></figure>
+<p>运行之后显示<br><figure class="highlight cs"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">[<span class="meta">W 21:11:31.141 NotebookApp</span>] Cannot bind to localhost, <span class="keyword">using</span> <span class="number">127.0</span><span class="number">.0</span><span class="number">.1</span> <span class="keyword">as</span> <span class="keyword">default</span> ip</div><div class="line">    [<span class="meta">Errno 8</span>] nodename nor servname provided, or not known</div><div class="line">[<span class="meta">I 21:11:31.150 NotebookApp</span>] Serving notebooks <span class="keyword">from</span> local directory: /Users/hesj/Downloads/lecture08_codes</div><div class="line">[<span class="meta">I 21:11:31.150 NotebookApp</span>] <span class="number">0</span> active kernels</div><div class="line">[<span class="meta">I 21:11:31.150 NotebookApp</span>] The Jupyter Notebook <span class="keyword">is</span> running at: http:<span class="comment">//127.0.0.1:8888/</span></div><div class="line">[<span class="meta">I 21:11:31.150 NotebookApp</span>] Use Control-<span class="function">C to stop <span class="keyword">this</span> server and shut down all <span class="title">kernels</span> (<span class="params">twice to skip confirmation</span>).</span></div><div class="line">0:42: execution error: “"http:<span class="comment">//127.0.0.1:8888/tree"”不理解“open location”信息。 (-1708)</span></div></pre></td></tr></table></figure></p>
+<p>浏览器没有自动打开</p>
+<a id="more"></a>
+<h3 id="环境"><a href="#环境" class="headerlink" title="环境"></a>环境</h3><ul>
+<li>macOS 10.12.5</li>
+<li>python 3.4</li>
+</ul>
+<h4 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h4><p>​    这个问题由于最新的Mac OSX 10.12.5升级。</p>
+<h4 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h4><ol>
+<li><p>生成配置文件</p>
+<figure class="highlight verilog"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">jupyter notebook --<span class="keyword">generate</span>-<span class="keyword">config</span></div><div class="line">#记录配置文件地址</div></pre></td></tr></table></figure>
+</li>
+<li><p>在终端中输入ipython3打开Python，生成密码的sha1密钥</p>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">from notebook<span class="selector-class">.auth</span> import passwd</div><div class="line"><span class="function"><span class="title">passwd</span><span class="params">()</span></span></div></pre></td></tr></table></figure>
+<p>在文本框中输入并确认一次密码后记录sha1秘钥值，如’sha1：XXXXXXX’</p>
+<p>退出python</p>
+</li>
+<li><p>vim打开配置文件jupyter_notebook_config.py，在最后加入</p>
+<figure class="highlight awk"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 制定浏览器</span></div><div class="line">c.NotebookApp.browser = <span class="string">u'chrome'</span></div><div class="line">c.NotebookApp.password = <span class="string">u'sha1:XXXXXXX'</span></div></pre></td></tr></table></figure>
+</li>
+<li><p>重启jupyter，重新打开网页即可</p>
+</li>
+</ol>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;  书上说人要长大三次&lt;br&gt;第一次是在发现 自己不是世界中心的时候&lt;br&gt;第二次是在发现即使再怎么努力 终究还是有些事令人无能为力的时候&lt;br&gt;
+      &lt;h3 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h3&gt;&lt;h4 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot; title=&quot;问题描述&quot;&gt;&lt;/a&gt;问题描述&lt;/h4&gt;&lt;figure class=&quot;highlight ebnf&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;jupyter notebook&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;运行之后显示&lt;br&gt;&lt;figure class=&quot;highlight cs&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;[&lt;span class=&quot;meta&quot;&gt;W 21:11:31.141 NotebookApp&lt;/span&gt;] Cannot bind to localhost, &lt;span class=&quot;keyword&quot;&gt;using&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;127.0&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.0&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.1&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;default&lt;/span&gt; ip&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    [&lt;span class=&quot;meta&quot;&gt;Errno 8&lt;/span&gt;] nodename nor servname provided, or not known&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;[&lt;span class=&quot;meta&quot;&gt;I 21:11:31.150 NotebookApp&lt;/span&gt;] Serving notebooks &lt;span class=&quot;keyword&quot;&gt;from&lt;/span&gt; local directory: /Users/hesj/Downloads/lecture08_codes&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;[&lt;span class=&quot;meta&quot;&gt;I 21:11:31.150 NotebookApp&lt;/span&gt;] &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt; active kernels&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;[&lt;span class=&quot;meta&quot;&gt;I 21:11:31.150 NotebookApp&lt;/span&gt;] The Jupyter Notebook &lt;span class=&quot;keyword&quot;&gt;is&lt;/span&gt; running at: http:&lt;span class=&quot;comment&quot;&gt;//127.0.0.1:8888/&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;[&lt;span class=&quot;meta&quot;&gt;I 21:11:31.150 NotebookApp&lt;/span&gt;] Use Control-&lt;span class=&quot;function&quot;&gt;C to stop &lt;span class=&quot;keyword&quot;&gt;this&lt;/span&gt; server and shut down all &lt;span class=&quot;title&quot;&gt;kernels&lt;/span&gt; (&lt;span class=&quot;params&quot;&gt;twice to skip confirmation&lt;/span&gt;).&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;0:42: execution error: “&quot;http:&lt;span class=&quot;comment&quot;&gt;//127.0.0.1:8888/tree&quot;”不理解“open location”信息。 (-1708)&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;浏览器没有自动打开&lt;/p&gt;
     
     </summary>
     
-      <category term="生活" scheme="https://hesj.github.io/ChadBlog.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-      <category term="心情" scheme="https://hesj.github.io/ChadBlog.github.io/categories/%E7%94%9F%E6%B4%BB/%E5%BF%83%E6%83%85/"/>
+      <category term="python" scheme="https://hesj.github.io/ChadBlog.github.io/categories/python/"/>
     
     
-      <category term="有点困了" scheme="https://hesj.github.io/ChadBlog.github.io/tags/%E6%9C%89%E7%82%B9%E5%9B%B0%E4%BA%86/"/>
-    
-      <category term="开心" scheme="https://hesj.github.io/ChadBlog.github.io/tags/%E5%BC%80%E5%BF%83/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>这是第一个Blog</title>
-    <link href="https://hesj.github.io/ChadBlog.github.io/2017/05/22/%E8%BF%99%E6%98%AF%E7%AC%AC%E4%B8%80%E4%B8%AABlog/"/>
-    <id>https://hesj.github.io/ChadBlog.github.io/2017/05/22/这是第一个Blog/</id>
-    <published>2017-05-21T18:29:46.000Z</published>
-    <updated>2017-07-22T17:18:40.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>  书上说人要长大三次<br>第一次是在发现 自己不是世界中心的时候<br>第二次是在发现即使再怎么努力 终究还是有些事令人无能为力的时候<br><a id="more"></a><br>第三次是在 明知道有些事可能会无能为力但还是会尽力争取的时候  </p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;  书上说人要长大三次&lt;br&gt;第一次是在发现 自己不是世界中心的时候&lt;br&gt;第二次是在发现即使再怎么努力 终究还是有些事令人无能为力的时候&lt;br&gt;
-    
-    </summary>
-    
-      <category term="生活" scheme="https://hesj.github.io/ChadBlog.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    
-      <category term="有点困了" scheme="https://hesj.github.io/ChadBlog.github.io/tags/%E6%9C%89%E7%82%B9%E5%9B%B0%E4%BA%86/"/>
+      <category term="jupyter" scheme="https://hesj.github.io/ChadBlog.github.io/tags/jupyter/"/>
     
   </entry>
   
