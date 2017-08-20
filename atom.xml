@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Hexo</title>
   
-  <link href="/ChadBlog.github.io/atom.xml" rel="self"/>
+  <link href="/ihehehe.com/atom.xml" rel="self"/>
   
-  <link href="https://hesj.github.io/ChadBlog.github.io/"/>
+  <link href="https://ihehehe.com/"/>
   <updated>2017-08-19T10:09:44.000Z</updated>
-  <id>https://hesj.github.io/ChadBlog.github.io/</id>
+  <id>https://ihehehe.com/</id>
   
   <author>
     <name>John Doe</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>新的</title>
-    <link href="https://hesj.github.io/ChadBlog.github.io/2017/08/19/%E6%96%B0%E7%9A%84/"/>
-    <id>https://hesj.github.io/ChadBlog.github.io/2017/08/19/新的/</id>
+    <link href="https://ihehehe.com/2017/08/19/%E6%96%B0%E7%9A%84/"/>
+    <id>https://ihehehe.com/2017/08/19/新的/</id>
     <published>2017-08-19T10:09:44.000Z</published>
     <updated>2017-08-19T10:09:44.000Z</updated>
     
@@ -28,15 +28,15 @@
     
     </summary>
     
-      <category term="分类" scheme="https://hesj.github.io/ChadBlog.github.io/categories/%E5%88%86%E7%B1%BB/"/>
+      <category term="分类" scheme="https://ihehehe.com/categories/%E5%88%86%E7%B1%BB/"/>
     
     
   </entry>
   
   <entry>
     <title>初探机器学习</title>
-    <link href="https://hesj.github.io/ChadBlog.github.io/2017/08/08/%E5%88%9D%E6%8E%A2%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
-    <id>https://hesj.github.io/ChadBlog.github.io/2017/08/08/初探机器学习/</id>
+    <link href="https://ihehehe.com/2017/08/08/%E5%88%9D%E6%8E%A2%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    <id>https://ihehehe.com/2017/08/08/初探机器学习/</id>
     <published>2017-08-08T10:28:00.000Z</published>
     <updated>2017-08-08T10:39:21.000Z</updated>
     
@@ -110,17 +110,17 @@
     
     </summary>
     
-      <category term="Machine learning" scheme="https://hesj.github.io/ChadBlog.github.io/categories/Machine-learning/"/>
+      <category term="Machine learning" scheme="https://ihehehe.com/categories/Machine-learning/"/>
     
     
-      <category term="scikit-learn" scheme="https://hesj.github.io/ChadBlog.github.io/tags/scikit-learn/"/>
+      <category term="scikit-learn" scheme="https://ihehehe.com/tags/scikit-learn/"/>
     
   </entry>
   
   <entry>
     <title>jupyter启动问题</title>
-    <link href="https://hesj.github.io/ChadBlog.github.io/2017/08/03/jupyter%E5%90%AF%E5%8A%A8%E9%97%AE%E9%A2%98/"/>
-    <id>https://hesj.github.io/ChadBlog.github.io/2017/08/03/jupyter启动问题/</id>
+    <link href="https://ihehehe.com/2017/08/03/jupyter%E5%90%AF%E5%8A%A8%E9%97%AE%E9%A2%98/"/>
+    <id>https://ihehehe.com/2017/08/03/jupyter启动问题/</id>
     <published>2017-08-03T09:41:13.000Z</published>
     <updated>2017-08-19T14:04:59.000Z</updated>
     
@@ -143,7 +143,7 @@
 <p>退出python</p>
 </li>
 <li><p>vim打开配置文件jupyter_notebook_config.py，在最后加入</p>
-<figure class="highlight awk"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 制定浏览器</span></div><div class="line">c.NotebookApp.browser = <span class="string">u'chrome'</span></div><div class="line">c.NotebookApp.password = <span class="string">u'sha1:XXXXXXX'</span></div></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 制定浏览器</span></div><div class="line">c.NotebookApp.browser = <span class="string">u'chrome'</span></div><div class="line">c.NotebookApp.password = <span class="string">u'sha1:XXXXXXX'</span></div></pre></td></tr></table></figure>
 </li>
 <li><p>重启jupyter，重新打开网页即可</p>
 </li>
@@ -158,10 +158,10 @@
     
     </summary>
     
-      <category term="python" scheme="https://hesj.github.io/ChadBlog.github.io/categories/python/"/>
+      <category term="python" scheme="https://ihehehe.com/categories/python/"/>
     
     
-      <category term="jupyter" scheme="https://hesj.github.io/ChadBlog.github.io/tags/jupyter/"/>
+      <category term="jupyter" scheme="https://ihehehe.com/tags/jupyter/"/>
     
   </entry>
   
