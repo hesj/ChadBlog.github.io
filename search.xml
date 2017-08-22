@@ -3,12 +3,62 @@
   
     
     <entry>
-      <title><![CDATA[[转载]设计模式——职责链模式]]></title>
-      <url>/2017/08/21/cj6m5riu8000nts98v15h3hcs/</url>
-      <content type="html"><![CDATA[<blockquote>
-<p>转载<a href="http://www.cnblogs.com/chenssy/p/3332193.html" target="_blank" rel="external">设计模式读书笔记—–职责链模式</a></p>
-</blockquote>
-<h3 id="案例背景"><a href="#案例背景" class="headerlink" title="案例背景"></a>案例背景</h3><p>大四还有课，而且学校抓的比较严，所以对于那些想翘课的人来说这个是最好不过的理由了—去参加校招了。所以咱学校规定所以去参加校招的必须要请假，且必须要有相关人员的签字，三天一下，辅导员签字、三到七天系主任签字，一个星期以上院长签字，更多？校长(不知道能不能找到校长呢？反正我是没见校长几面)，出了这样的政策确实上课情况好多了！对于这中将请求一级一级地往上传递直到处理请求为止的设计模式就是职责链模式。</p>
+      <title><![CDATA[拆掉思维里的墙——原来我还可以这样活（二）]]></title>
+      <url>/2017/08/22/cj6mwoemz000f1l98uy8a5jwj/</url>
+      <content type="html"><![CDATA[<h3 id="原书信息"><a href="#原书信息" class="headerlink" title="原书信息"></a>原书信息</h3><p><strong>拆掉思维里的墙——原来我还可以这样活</strong></p>
+<p>作者：古典</p>
+<p>选题策划：北京磨铁图书有限公司</p>
+<p>出版社：中国书店出版社</p>
+<p>出版时间：2010.9</p>
+<p>ISBN：978-7-8066-3886-6</p>
+<h3 id="今日导言"><a href="#今日导言" class="headerlink" title="今日导言"></a>今日导言</h3><p>今天让我们来看看心智模式这个东西，如果说每个人的大脑是硬件的话，那么心智模式就是每个人的软件。</p>
+<p>硬件上，99%的人群里都不会有太大的差距，之所以人和人之间的思维和行为会有天差地别，主要来源于软件上的差别。</p>
+<p>每天、每小时、每分钟、每秒钟，我们都在不停地写程序，写什么呢？创造新的心智模式，修正旧的心智模式。优秀的人代码总是写得又干净又好，于是，他们有更好的思维模式，遇到事情有更为正面的反应和直指核心的能力。</p>
+<h3 id="自证预言"><a href="#自证预言" class="headerlink" title="自证预言"></a>自证预言</h3><p>心智模式，也就是思考问题的方式，决定了每个人的命运。</p>
+<p>我想你一定听过自证预言，有点类似吸引力法则，还有人据此发展出一套套玄之又玄的能量波之类的理论。其实没那么玄乎，简而言之，当你坚定不移地认为自己是怎么样的，那么你的所有心智和行为模式就都会在不经意间朝那个方向偏离，直到你真正成为了那样的人。</p>
+<p>之前就有一个很出名的实验，将一个班级里的学生分为成功者和失败者。成功者意味着天赋好，成功的概率较大；失败者意味着天赋差，成功的概率较小。过了几个学期，老师们发现，成功者果然成绩越来越好，失败者果然成绩越来越差，什么原因呢？</p>
+<p>原来成功者自信心都很强，他们处处以成功者的标准来要求自己，老师们特别偏爱，就容易多传授些知识，因此成绩就越来越好，而失败者觉得自己再努力也是失败，就很容易自暴自弃，对自己的退步也不甚关心，老师们觉得他们糟糕透了，渐渐地教得也不太认真，因此他们成绩就越来越差。</p>
+<p>了解了这种心智模式后，我们需要时时警惕，避免掉入心智陷阱。但同时，我们也可以正向利用它来达成目标。</p>
+<h3 id="自动加工（1）"><a href="#自动加工（1）" class="headerlink" title="自动加工（1）"></a>自动加工（1）</h3><p>不知道你有没有这样的体验，就是你的大脑常常不听你的话，它更喜欢受雇于你的固定思维，而非你的自主心智？</p>
+<p>比如说，当你看到有媒体报道为富不仁，欺压底层人民的时候，你会不会根本不了解事情的真相就直接在网上一顿喷？而这仅仅是由于曾经或是现在你也是底层人民的一员，又或者你曾经被富人欺压过，伤害过自尊，所以你感同身受了，于是就搬出了自己的固定思维——富人都该死。这是你潜意识里的固定思维。</p>
+<p>但当事情反过来，底层人民嚣张地打了富人，作为底层人民的你也许你会更加谨慎地对待报道，你会去反向思考——或许另有隐情呢？</p>
+<p>这就是你的大脑加工材料的方式，它常常根据你的潜意识意愿，非客观地替你做出判断，有时候甚至替你做出某些具体的决定。</p>
+<p>每个人眼中的世界都是不同的，正如现在看到这行字的时候，每个人的感悟也是不同的，都是在被自己的框架加工着的。因此，这就是为什么很多人说“懂了这么多道理，还是过不好这一生”，因为很多人拿自己的框架一加工，往往就把那些道理给变味了，引不起行动是很正常的。</p>
+<p>然而这样的状况却是我们应该竭力避免的，无论在任何情况下，我们都该夺回大脑的控制权。</p>
+<h3 id="自动加工（2）"><a href="#自动加工（2）" class="headerlink" title="自动加工（2）"></a>自动加工（2）</h3><p>思维定式极易让我们陷入心智困局。有人说，那我抛弃现有思维定式不就可以了？我用一张白纸的心态去面对未来的外在刺激以及内在反馈。</p>
+<p>可能没这么简单，因为思维定式是在不断同现实的接触中逐渐形成的，这就意味着哪怕你抛弃了之前的所有，但你若是不非常注意的话，很容易就会生成新的。</p>
+<p>作者举了一个有钱人的例子，为什么明明很有钱了还是不快乐？因为有钱跟幸福快乐的关系并非总是正比的。在有钱人还比较穷的时候，每挣到多一点的钱，幸福指数就会飙升，因为极大地丰富了物质生活，于是，他的脑子里就植入了有钱就能幸福的心智模式。</p>
+<p>但当他已经很有钱了，钱的继续增多，对幸福的边际提升已经很小甚至为负了的时候，他还是固守以前的心智模式，于是继续拼命挣钱甚至过度挤压了跟家人的相处时间，所以金钱越多，幸福感就越下降了。</p>
+<p>这就是一个从实践中生成心智模式，但当环境变化以后，又没有将心智模式进行及时调整的典型例子，养成这种习惯的人就会任凭自己被大脑的现有框架所控制。所以我们要根据环境的变化随时升级自己的心智模式，就跟软件升级是一样的。</p>
+<h3 id="正确努力"><a href="#正确努力" class="headerlink" title="正确努力"></a>正确努力</h3><p>“一分耕耘一分收获”这样的句子听起来十分正确，但却并不总是适用的，还得看你怎样耕耘，想收获的是什么。</p>
+<p>有时候我们容易自我感动，觉得我既然耕耘了，那就该有我想要的收获，这是十分粗暴和幼稚的想法。因为首先，你耕耘的力度和你想要的结果之间，是不是可以对等？这只是来自你自个儿的判断；其次，你耕耘的方向是不是真的可以导向那个你期待的结果？这也只是你的自以为。</p>
+<p>努力还得使用正确的心智模式来评估，有效的努力就是行使正确的心智模式的结果，无效的努力则恰恰相反。努力的效果是不以你自认为付出多少为转移的。比如很多人起早贪黑干活，最后却挣不到多少钱，他们喜欢抱怨。但你要问他们为什么不去选择另一份更高效的工作呢？他们会说自己没技能，没技能为什么不去学呢？他们嫌麻烦，怕学不会。所以他们还是每天起早贪黑，每天告诉自己付出很多，依然抱怨社会不公。</p>
+<p>这完全是心智模式的问题。</p>
+<h3 id="超越心智"><a href="#超越心智" class="headerlink" title="超越心智"></a>超越心智</h3><p>我们的心智模式形成于自己在过去对客观信息的摄入和加工，起初的摄入过程通常没有多大的差别，但加工过程就大相径庭。</p>
+<p>而加工过程的不同，又导致我们形成了不同的加工模式，从而渐渐连摄入的方式都渐渐有了差距。</p>
+<p>比如拥有不同加工习惯的厨师，他们在见到同一种食材时，脑子里迸发出的灵感就是迥然不同，从而使得看待食材的方式也有了不同。</p>
+<p>所以要超越心智首先要懂得心智的运行模式，其次要能够看到更好的模式，通过两相对比，找出哪怕是微小的差异，方能在不断反省中建立起更为快速有效的反馈机制，这就是进步的过程，也就是作者说的，从不知不觉，到后知后觉，再到当知当觉，最后到先知先觉，这就是心智模式升级的路径。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 读书 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 另一类 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[设计模式——职责链模式]]></title>
+      <url>/2017/08/21/cj6mwoen4000n1l98aaqeotr2/</url>
+      <content type="html"><![CDATA[<h3 id="案例背景"><a href="#案例背景" class="headerlink" title="案例背景"></a>案例背景</h3><p>大四还有课，而且学校抓的比较严，所以对于那些想翘课的人来说这个是最好不过的理由了—去参加校招了。所以咱学校规定所以去参加校招的必须要请假，且必须要有相关人员的签字，三天一下，辅导员签字、三到七天系主任签字，一个星期以上院长签字，更多？校长(不知道能不能找到校长呢？反正我是没见校长几面)，出了这样的政策确实上课情况好多了！对于这中将请求一级一级地往上传递直到处理请求为止的设计模式就是职责链模式。</p>
 <p><img src="https://ws3.sinaimg.cn/large/006tNc79gy1firldxzzdwj30tq0aawex.jpg" alt=""></p>
 <p>上图将学生、辅导员、系主任、院长、校长组成了一个简单的链。<strong>在这个链上，学生是申请者，其余的都是请求处理者。职责链可以将请求的处理者组织成一条链，并且将请求沿着链传递，如果某个请求处理者能够处理请求则处理，否则将该请求交由上级处理。</strong></p>
 <p>职责链上的处理者负责处理请求，客户只需要将请求发送到职责链上即可，无须关心请求的处理细节和请求的传递，所以<strong>职责链将请求的发送者和请求的处理者解耦了，这就是职责链的设计动机。</strong><br><a id="more"></a></p>
@@ -45,14 +95,10 @@
 <p><strong>运行结果</strong></p>
 <p><img src="https://ws2.sinaimg.cn/large/006tNc79gy1firlt3jm0aj30xk04c0t4.jpg" alt=""></p>
 <h3 id="模式的优缺点"><a href="#模式的优缺点" class="headerlink" title="模式的优缺点"></a>模式的优缺点</h3><h4 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h4><ol>
-<li><p>降低耦合度。它将请求的发送者和接受者解耦。</p>
-</li>
-<li><p>简化了对象。使得对象不需要知道链的结构。</p>
-</li>
-<li><p>增强给对象指派职责的灵活性。通过改变链内的成员或者调动它们的次序，允许动态地新增或者删除责任。</p>
-</li>
-<li><p>增加新的请求处理类很方便。</p>
-</li>
+<li>降低耦合度。它将请求的发送者和接受者解耦。</li>
+<li>简化了对象。使得对象不需要知道链的结构。</li>
+<li>增强给对象指派职责的灵活性。通过改变链内的成员或者调动它们的次序，允许动态地新增或者删除责任。</li>
+<li>增加新的请求处理类很方便。</li>
 </ol>
 <h4 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h4><ol>
 <li>不能保证请求一定被接收。</li>
@@ -70,6 +116,9 @@
 <li>客户端发送的请求可能会得不到处理。</li>
 <li>处理者不需要知道链的结构，只需要明白他的后续者是谁就可以了。这样就简化了系统中的对象。</li>
 </ol>
+<blockquote>
+<p>转载<a href="http://www.cnblogs.com/chenssy/p/3332193.html" target="_blank" rel="external">设计模式读书笔记—–职责链模式</a>，文章写的浅显易懂，直接搬过来了。</p>
+</blockquote>
 ]]></content>
       
         <categories>
@@ -89,7 +138,7 @@
     
     <entry>
       <title><![CDATA[拆掉思维里的墙——原来我还可以这样活（一）]]></title>
-      <url>/2017/08/21/cj6m5riu6000kts98yn263yy3/</url>
+      <url>/2017/08/21/cj6mwoen7000s1l98l8crri5z/</url>
       <content type="html"><![CDATA[<h3 id="原书信息"><a href="#原书信息" class="headerlink" title="原书信息"></a>原书信息</h3><p><strong>拆掉思维里的墙——原来我还可以这样活</strong></p>
 <p>作者：古典</p>
 <p>选题策划：北京磨铁图书有限公司</p>
@@ -152,7 +201,7 @@
     
     <entry>
       <title><![CDATA[异类——不一样的成功启示录（五）]]></title>
-      <url>/2017/08/18/cj6m5riu3000cts98sapeb7ix/</url>
+      <url>/2017/08/18/cj6mwoems00081l98ydbkr8fu/</url>
       <content type="html"><![CDATA[<h3 id="原书信息"><a href="#原书信息" class="headerlink" title="原书信息"></a>原书信息</h3><p><strong><em>异类——不一样的成功启示录</em></strong></p>
 <p><strong>原名</strong>：Outliers:The Story of Success</p>
 <p>  作者：【加】马尔柯姆•格拉德威尔</p>
@@ -203,7 +252,7 @@
     
     <entry>
       <title><![CDATA[异类——不一样的成功启示录（四）]]></title>
-      <url>/2017/08/17/cj6m5riu4000fts98a4m881kg/</url>
+      <url>/2017/08/17/cj6mwoen2000k1l986m420zh6/</url>
       <content type="html"><![CDATA[<h3 id="原书信息"><a href="#原书信息" class="headerlink" title="原书信息"></a>原书信息</h3><p><strong><em>异类——不一样的成功启示录</em></strong></p>
 <p><strong>原名</strong>：Outliers:The Story of Success</p>
 <p>  作者：【加】马尔柯姆•格拉德威尔</p>
@@ -252,7 +301,7 @@
     
     <entry>
       <title><![CDATA[异类——不一样的成功启示录（三）]]></title>
-      <url>/2017/08/16/cj6m5ritx0007ts98o9fhkd88/</url>
+      <url>/2017/08/16/cj6mwoemg00031l98nzw2wmrc/</url>
       <content type="html"><![CDATA[<h3 id="原书信息"><a href="#原书信息" class="headerlink" title="原书信息"></a>原书信息</h3><p><strong><em>异类——不一样的成功启示录</em></strong></p>
 <p><strong>原名</strong>：Outliers:The Story of Success</p>
 <p>  作者：【加】马尔柯姆•格拉德威尔</p>
@@ -301,7 +350,7 @@
     
     <entry>
       <title><![CDATA[异类——不一样的成功启示录（二）]]></title>
-      <url>/2017/08/15/cj6m5riti0001ts98eubg5zxo/</url>
+      <url>/2017/08/15/cj6mwoemx000c1l98qr9yiai2/</url>
       <content type="html"><![CDATA[<h3 id="原书信息"><a href="#原书信息" class="headerlink" title="原书信息"></a>原书信息</h3><p><strong><em>异类——不一样的成功启示录</em></strong></p>
 <p><strong>原名</strong>：Outliers:The Story of Success</p>
 <p>  作者：【加】马尔柯姆•格拉德威尔</p>
@@ -365,7 +414,7 @@
     
     <entry>
       <title><![CDATA[异类——不一样的成功启示录（一）]]></title>
-      <url>/2017/08/14/cj6m5ritz0008ts98vlnlcrhl/</url>
+      <url>/2017/08/14/cj6mwoem800011l982hzvuj6h/</url>
       <content type="html"><![CDATA[<h3 id="原书信息"><a href="#原书信息" class="headerlink" title="原书信息"></a>原书信息</h3><p><strong><em>异类——不一样的成功启示录</em></strong></p>
 <p><strong>原名</strong>：Outliers:The Story of Success</p>
 <p>  作者：【加】马尔柯姆•格拉德威尔</p>
@@ -414,7 +463,7 @@
     
     <entry>
       <title><![CDATA[初探机器学习]]></title>
-      <url>/2017/08/08/cj6m5ritv0006ts98lwle2llc/</url>
+      <url>/2017/08/08/cj6mwoemq00071l98b55dfv0g/</url>
       <content type="html"><![CDATA[<h2 id="什么是机器学习？"><a href="#什么是机器学习？" class="headerlink" title="什么是机器学习？"></a>什么是机器学习？</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>简而言之，机器学习是<strong>人工智能</strong>的一种,为电脑提供了<strong>学习能力</strong>而不显式地编程。</p>
 <h3 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h3><ul>
 <li>监督学习，训练样本包含对应的“标签”，如识别问题<ul>
@@ -496,7 +545,7 @@
     
     <entry>
       <title><![CDATA[jupyter启动问题]]></title>
-      <url>/2017/08/03/cj6m5rito0003ts98wjjicoq1/</url>
+      <url>/2017/08/03/cj6mwoemn00061l98r91cey6k/</url>
       <content type="html"><![CDATA[<h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><h4 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h4><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">jupyter notebook</span></div></pre></td></tr></table></figure>
 <p>运行之后显示<br><figure class="highlight cs"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">[<span class="meta">W 21:11:31.141 NotebookApp</span>] Cannot bind to localhost, <span class="keyword">using</span> <span class="number">127.0</span><span class="number">.0</span><span class="number">.1</span> <span class="keyword">as</span> <span class="keyword">default</span> ip</div><div class="line">    [<span class="meta">Errno 8</span>] nodename nor servname provided, or not known</div><div class="line">[<span class="meta">I 21:11:31.150 NotebookApp</span>] Serving notebooks <span class="keyword">from</span> local directory: /Users/hesj/Downloads/lecture08_codes</div><div class="line">[<span class="meta">I 21:11:31.150 NotebookApp</span>] <span class="number">0</span> active kernels</div><div class="line">[<span class="meta">I 21:11:31.150 NotebookApp</span>] The Jupyter Notebook <span class="keyword">is</span> running at: http:<span class="comment">//127.0.0.1:8888/</span></div><div class="line">[<span class="meta">I 21:11:31.150 NotebookApp</span>] Use Control-<span class="function">C to stop <span class="keyword">this</span> server and shut down all <span class="title">kernels</span> (<span class="params">twice to skip confirmation</span>).</span></div><div class="line">0:42: execution error: “"http:<span class="comment">//127.0.0.1:8888/tree"”不理解“open location”信息。 (-1708)</span></div></pre></td></tr></table></figure></p>
 <p>浏览器没有自动打开</p>
