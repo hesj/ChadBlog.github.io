@@ -3,6 +3,45 @@
   
     
     <entry>
+      <title><![CDATA[SSH远程文件/目录传输命令scp]]></title>
+      <url>/2017/08/23/SSH%E8%BF%9C%E7%A8%8B%E6%96%87%E4%BB%B6-%E7%9B%AE%E5%BD%95%E4%BC%A0%E8%BE%93%E5%91%BD%E4%BB%A4scp/</url>
+      <content type="html"><![CDATA[<p>在使用VPS时会经常在不同VPS间互相备份数据或者转移数据，大部分情况下VPS上都已经安装了Nginx或者类似的web server，直接将要传输的文件放到web server的目录，然后在目标机器上执行：<code>wget https://www.vpser.net/testfile.zip</code> 就行了。当VPS上没有安装web server和ftp server的时候或感觉上面的方法比较麻烦，那么用 scp命令 就会排上用场。<br><a id="more"></a></p>
+<h2 id="scp是什么？"><a href="#scp是什么？" class="headerlink" title="scp是什么？"></a>scp是什么？</h2><p>scp是secure copy的简写，用于在Linux下进行远程拷贝文件的命令，和它类似的命令有cp，不过cp只是在本机进行拷贝不能跨服务器，而且scp传输是加密的。可能会稍微影响一下速度。</p>
+<h2 id="scp有什么用？"><a href="#scp有什么用？" class="headerlink" title="scp有什么用？"></a>scp有什么用？</h2><p>1、我们需要获得远程服务器上的某个文件，远程服务器既没有配置ftp服务器，没有开启web服务器，也没有做共享，无法通过常规途径获得文件时，只需要通过 scp命令 便可轻松的达到目的。</p>
+<p>2、我们需要将本机上的文件上传到远程服务器上，远程服务器没有开启ftp服务器或共享，无法通过常规途径上传是，只需要通过scp命令便可以轻松的达到目的。</p>
+<h2 id="scp使用方法"><a href="#scp使用方法" class="headerlink" title="scp使用方法"></a>scp使用方法</h2><h3 id="获取远程服务器上的文件"><a href="#获取远程服务器上的文件" class="headerlink" title="获取远程服务器上的文件"></a>获取远程服务器上的文件</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">scp -P 2222 root@www.vpser.net:/root/lnmp0.4.tar.gz /home/lnmp0.4.tar.gz</div></pre></td></tr></table></figure>
+<p>上端口大写P 为参数，2222 表示更改SSH端口后的端口，如果没有更改SSH端口可以不用添加该参数。 root@www.vpser.net 表示使用root用户登录远程服务器www.vpser.net，:/root/lnmp0.4.tar.gz 表示远程服务器上的文件，最后面的/home/lnmp0.4.tar.gz表示保存在本地上的路径和文件名。还可能会用到p参数保持目录文件的权限访问时间等。</p>
+<h3 id="获取远程服务器上的目录"><a href="#获取远程服务器上的目录" class="headerlink" title="获取远程服务器上的目录"></a>获取远程服务器上的目录</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">*scp -P 2222 -r root@www.vpser.net:/root/lnmp0.4/ /home/lnmp0.4/*</div></pre></td></tr></table></figure>
+<p>上端口大写P 为参数，2222 表示更改SSH端口后的端口，如果没有更改SSH端口可以不用添加该参数。-r 参数表示递归复制（即复制该目录下面的文件和目录）；root@www.vpser.net 表示使用root用户登录远程服务器www.vpser.net，:/root/lnmp0.4/ 表示远程服务器上的目录，最后面的/home/lnmp0.4/表示保存在本地上的路径。</p>
+<h3 id="将本地文件上传到服务器上"><a href="#将本地文件上传到服务器上" class="headerlink" title="将本地文件上传到服务器上"></a>将本地文件上传到服务器上</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">scp -P 2222 /home/lnmp0.4.tar.gz **root@www.vpser.net:/root/lnmp0.4.tar.gz</div></pre></td></tr></table></figure>
+<p>上端口大写P 为参数，2222 表示更改SSH端口后的端口，如果没有更改SSH端口可以不用添加该参数。 /home/lnmp0.4.tar.gz表示本地上准备上传文件的路径和文件名。root@www.vpser.net 表示使用root用户登录远程服务器www.vpser.net，:/root/lnmp0.4.tar.gz 表示保存在远程服务器上目录和文件名。</p>
+<h3 id="将本地目录上传到服务器上"><a href="#将本地目录上传到服务器上" class="headerlink" title="将本地目录上传到服务器上"></a>将本地目录上传到服务器上</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">scp -P 2222 -r /home/lnmp0.4/** root@www.vpser.net:/root/lnmp0.4/</div></pre></td></tr></table></figure>
+<p>上 端口大写P 为参数，2222 表示更改SSH端口后的端口，如果没有更改SSH端口可以不用添加该参数。-r 参数表示递归复制（即复制该目录下面的文件和目录）；/home/lnmp0.4/表示准备要上传的目录，root@www.vpser.net 表示使用root用户登录远程服务器www.vpser.net，:/root/lnmp0.4/ 表示保存在远程服务器上的目录位置。</p>
+<h3 id="可能有用的几个参数"><a href="#可能有用的几个参数" class="headerlink" title="可能有用的几个参数 :"></a>可能有用的几个参数 :</h3><p>-v 和大多数 linux 命令中的 -v 意思一样 , 用来显示进度 . 可以用来查看连接 , 认证 , 或是配置错误 .</p>
+<p>-C 使能压缩选项 .</p>
+<p>-4 强行使用 IPV4 地址 .</p>
+<p>-6 强行使用 IPV6 地址 .</p>
+<blockquote>
+<p>转载<a href="https://www.vpser.net/manage/scp.html" target="_blank" rel="external">Linux SSH远程文件/目录传输命令scp</a></p>
+</blockquote>
+]]></content>
+      
+        <categories>
+            
+            <category> Linux </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 文件传输 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[拆掉思维里的墙——原来我还可以这样活（三）]]></title>
       <url>/2017/08/23/%E6%8B%86%E6%8E%89%E6%80%9D%E7%BB%B4%E9%87%8C%E7%9A%84%E5%A2%99%E2%80%94%E2%80%94%E5%8E%9F%E6%9D%A5%E6%88%91%E8%BF%98%E5%8F%AF%E4%BB%A5%E8%BF%99%E6%A0%B7%E6%B4%BB%EF%BC%88%E4%B8%89%EF%BC%89/</url>
       <content type="html"><![CDATA[<h3 id="原书信息"><a href="#原书信息" class="headerlink" title="原书信息"></a>原书信息</h3><p><strong>拆掉思维里的墙——原来我还可以这样活</strong></p>
