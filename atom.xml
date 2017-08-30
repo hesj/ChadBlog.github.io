@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ihehehe.com/"/>
-  <updated>2017-08-30T06:59:12.000Z</updated>
+  <updated>2017-08-30T07:04:02.000Z</updated>
   <id>https://ihehehe.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://ihehehe.com/2017/08/30/%E6%9A%97%E6%97%B6%E9%97%B4-%E4%B8%89/"/>
     <id>https://ihehehe.com/2017/08/30/暗时间-三/</id>
     <published>2017-08-30T01:16:49.000Z</published>
-    <updated>2017-08-30T06:59:12.000Z</updated>
+    <updated>2017-08-30T07:04:02.000Z</updated>
     
     <content type="html"><![CDATA[<h3 id="今日导言"><a href="#今日导言" class="headerlink" title="今日导言"></a>今日导言</h3><p>从前两天的文章来看，看上去《暗时间》讲的就是关于如何学习的事儿，今天换换口味，我们来看看，为什么我们经常会有认知失调的这样一个矛盾行为：明明我知道干这件事儿对我最好，但我就是控制不住自己颤抖的双手，选择干另一件连我自己都觉得不是那么好的事儿。</p>
 <h3 id="认知失调"><a href="#认知失调" class="headerlink" title="认知失调"></a>认知失调</h3><p>认知失调是一种非常常见的现象，无处不在。</p>
@@ -67,7 +67,7 @@
     
     <summary type="html">
     
-      描述&lt;!--more--&gt;
+      为什么我们经常会有认知失调的这样一个矛盾行为：明明我知道干这件事儿对我最好，但我就是控制不住自己颤抖的双手，选择干另一件连我自己都觉得不是那么好的事儿。
     
     </summary>
     
@@ -1022,7 +1022,7 @@
 <p>退出python</p>
 </li>
 <li><p>vim打开配置文件jupyter_notebook_config.py，在最后加入</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 制定浏览器</span></div><div class="line">c.NotebookApp.browser = <span class="string">u'chrome'</span></div><div class="line">c.NotebookApp.password = <span class="string">u'sha1:XXXXXXX'</span></div></pre></td></tr></table></figure>
+<figure class="highlight awk"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 制定浏览器</span></div><div class="line">c.NotebookApp.browser = <span class="string">u'chrome'</span></div><div class="line">c.NotebookApp.password = <span class="string">u'sha1:XXXXXXX'</span></div></pre></td></tr></table></figure>
 </li>
 <li><p>重启jupyter，重新打开网页即可</p>
 </li>
